@@ -1,0 +1,12 @@
+.position{
+    border: solid 3px purple;
+    height: 710px;
+    position: relative;
+}
+.relative{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}

@@ -1,0 +1,32 @@
+.animate{
+    background-color:aquamarine;
+    height:98vh;
+    width: 99vw;
+    margin-top: -22px;
+}
+h1{
+    text-align: center;
+}
+#bounceball{
+    background-color: rgba(243, 69, 208, 0.845);
+    margin-left: 46.9%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    animation-name: bounce;
+    animation-timing-function:cubic-bezier(0.23, 1, 0.320, 1);
+    animation-duration: 1s;
+    /* animation-fill-mode: forwards; */
+    animation-direction:alternate-reverse;
+    animation-iteration-count: infinite;
+    /* animation-play-state: running; */
+}
+@keyframes bounce{
+   from{
+    transform: translate3d(0,0,0);
+   }
+   to{
+    transform: translate3d(0,100px,0);
+   }
+
+}

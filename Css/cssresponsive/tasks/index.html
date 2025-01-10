@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        .container{
+         column-count: 1;
+         background-color:rgb(119, 119, 214); 
+         height: 50px;
+         margin-top: -7px;
+         margin-left: -7px;
+         margin-right: -8px;
+
+         .head{ 
+         font-size: x-large;
+         font-weight: bold;
+         color: white; 
+         margin-top: 10px;
+         margin-left: 20px;
+         }
+         .sec{
+            text-align: center;
+         }
+         .nav{
+            font-size: medium;
+            color: white;
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+            padding-right: 20px;
+            margin-top: -22px;
+         }
+         .menu{
+            /* margin-left: -825px; */
+            display: flex;
+            /* justify-content: center; */
+            margin-top: -20px;
+            margin-left:320px;
+            color: white;
+            /* text-align: center; */
+         }
+        @media only screen and (min-width:1200px) {
+            .menu{
+                visibility: hidden;
+                /* display: block; */
+            }
+        }
+            
+        @media only screen and (max-width:375px) {
+            .menu{
+                visibility:visible;
+            } 
+            .nav{
+                display: none;
+
+            } 
+        }    
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+    <header class="head">LOGO</header>
+    <nav class="nav">
+        <a>Home</a>
+        <a>About</a>
+        <a>Contact</a>
+    </nav>
+    <section class="menu">
+    <i class="fa-solid fa-bars"></i>
+    </section>    
+</div>
+</body>
+</html>

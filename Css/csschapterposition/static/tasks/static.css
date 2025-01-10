@@ -1,0 +1,12 @@
+.stack{
+    border: solid 3px purple;
+    margin: 0;
+    position: static;
+    height: 710px;
+    
+}
+.image{
+    height:200px;
+    width: 200px;
+    position: static;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <b class="tour">Tour Booking Form</b><br>
+    <b class="head">Note: * Mandatory Fields</b>
+    <div class="line">
+        <b> __________________________________________________________________________________________________________________________</b>
+    </div><br>
+    <div class="Container">
+    <form action="../csschallenges/booking successful.jpg">
+        <div class="label">
+    <!-- label for full name -->
+    <label for="Full Name" ><b>Full Name</b></label><label style="color: red;"><b>*</b></label><label><b>:</b></label><br>
+    <!-- input for full name -->
+    <input type="text" name="name" id="name"><br>
+    <!-- label for email -->
+    <label for="Email Address"><b>Email Address</b></label><label style="color: red;"><b>*</b></label><label>:</label><br>
+    <!-- input for email-->
+    <input type="email" name="email" id="email"><br>
+    <!-- Select -->
+    <label for="Select Tour Pakage*:"><b>Select Tour Package</b></label><label style="color: red;"><b>*</b></label><label><b>:</b></label><br>
+    <select name="Select" class="Select">
+        <option value="Select Package">Select Package</option>
+        <option value="3 to 4 days">3 to 4 days</option>
+        <option value="6 to 12 days">6 to 12 days</option>
+        <option value="12 to 18 days">12 to 18 days</option>
+    </select><br>
+    <label for="Number of Persons"><b>Number of persons</b></label><label style="color: red;"><b>*</b></label><label><b>:</b></label><br>
+    <input type="number" name="Number" class="number"><br>
+    <!-- Date -->
+    <label for="Date*:"><b>Date</b></label><label style="color: red;"><b>*</b></label><label><b>:</b></label><br>
+    <input type="date" name="Date" class="date"><br>
+    <!-- checkbox -->
+    <label for="What would you want to avail?*" id="avail"><b>What would you want to avail</b></label><label><b>?</b></label><label style="color: red;"><b>*</b></label><br>
+    <input type="checkbox" name="What would you want to avail?" class="check">
+    <label for="Boarding" class="board">Boarding</label><br>
+    <input type="checkbox" name="Boarding" class="check1">
+    <label for="Food" class="board">Food</label><br>
+    <input type="checkbox" name="Food" class="check2">
+    <label for="Sight seeing" class="board">Sight Seeing</label><br>
+    <!-- Radio -->
+    <label for="Terms and Conditions*" class="terms"><b>Terms and Conditions</b></label><label style="color: red;"><b>*</b></label><br>
+    <input type="radio" name="agree" class="agree">
+    <label for="I Agree">I Agree</label><br>
+</div>
+<!-- button -->
+    <button class="button">Book Now</button>   
+</fieldset>
+</form>
+</div>
+</body>
+</html>

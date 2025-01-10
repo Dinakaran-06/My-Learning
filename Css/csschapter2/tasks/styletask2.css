@@ -1,0 +1,17 @@
+h1{
+    color: rgb(23, 163, 23);
+}
+h2{
+    background-color: rgb(236, 29, 215);
+    color: black;
+    direction: rtl;
+    width: 700px;
+}
+h4{
+    border: dashed 2px;
+    border-color: red;
+    width: 700px;
+}
+p{
+    color: black;
+}
