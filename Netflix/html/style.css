@@ -1,0 +1,28 @@
+.nav_logo{
+    width: 100px;
+    margin-bottom: -5px;
+}
+.nav_avatar{
+    width: 33px;
+    height: 29px;
+    margin-bottom:7px;
+    margin-left: 1350px;
+    
+}
+.row__posters1{
+    display: flex;
+    width: 50%;
+    height: 155px;
+    column-gap: 5px;
+}
+.row__posters2{
+    display: flex;
+    width: 25px;
+    height: 150px;
+    column-gap: 5px;
+
+
+}
+.row__poster:hover{
+    color: red;
+}
